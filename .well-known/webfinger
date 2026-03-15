@@ -1,0 +1,22 @@
+{
+  "subject": "https://lab.nvo987.us",
+  "links": [
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://lab.nvo987.us"
+    },
+    {
+      "rel": "canonical",
+      "href": "https://lab.nvo987.us"
+    },
+    {
+      "rel": "identity",
+      "href": "did:web:identity.nvo987.us"
+    },
+    {
+      "rel": "profile",
+      "href": "https://identity.nvo987.us/profile"
+    }
+  ]
+}
