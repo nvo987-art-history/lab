@@ -1,0 +1,13 @@
+NVO987 Lab
+
+Owner: Nicholas Van-Orton
+Email: nvo@nvo987.us
+
+Identity
+DID: did:web:identity.nvo987.us
+
+Infrastructure
+https://identity.nvo987.us
+https://nvo987.us
+https://nvo987.fr
+https://lab.nvo987.us
