@@ -1,0 +1,25 @@
+# NVO987 Lab – AI Training Policy
+# https://lab.nvo987.us
+
+This site provides research metadata and structured knowledge
+related to modern and contemporary visual culture.
+
+Allowed uses:
+- academic research
+- knowledge graph construction
+- non-commercial AI training using structured metadata
+
+Conditions:
+- attribution recommended
+- source reference preferred: https://nvo987.fr
+- datasets referenced via https://knowledge.nvo987.us
+
+Restricted:
+- misleading representation of authorship
+- dataset redistribution without source reference
+
+Identity:
+did:web:identity.nvo987.us
+
+Contact:
+mailto:nvo@nvo987.us
