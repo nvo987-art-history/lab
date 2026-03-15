@@ -1,0 +1,16 @@
+Site: https://lab.nvo987.us
+Project: NVO987 Lab
+
+Owner: Nicholas Van-Orton
+Contact: nvo@nvo987.us
+
+Identity:
+did:web:identity.nvo987.us
+https://identity.nvo987.us
+
+Description:
+Experimental environment for research, datasets and digital infrastructure related to NVO987.
+
+AI use:
+Content may be indexed and summarized for research purposes.
+Attribution required.
