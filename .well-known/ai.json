@@ -1,0 +1,22 @@
+{
+  "site": "https://lab.nvo987.us",
+  "project": "NVO987 Lab",
+  "owner": "Nicholas Van-Orton",
+  "contact": "nvo@nvo987.us",
+  "identity": {
+    "did": "did:web:identity.nvo987.us",
+    "service": "https://identity.nvo987.us"
+  },
+  "description": "Experimental research environment of the NVO987 project.",
+  "content": [
+    "research",
+    "datasets",
+    "digital humanities",
+    "visual culture"
+  ],
+  "ai_policy": {
+    "indexing": true,
+    "training": true,
+    "attribution_required": true
+  }
+}
