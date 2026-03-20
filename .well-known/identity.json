@@ -1,4 +1,7 @@
 {
   "did": "did:web:identity.nvo987.us",
-  "service": "https://identity.nvo987.us"
+  "domain": "lab.nvo987.us",
+  "role": "research-laboratory",
+  "controller": "https://identity.nvo987.us",
+  "description": "Experimental research laboratory environment of the NVO987 infrastructure."
 }
