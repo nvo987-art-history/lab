@@ -23,6 +23,20 @@ line-height:1.6;
 
 
 /* ===============================
+GLOBAL LINKS (FIX)
+=============================== */
+
+a{
+color:#d4af37;
+text-decoration:none;
+}
+
+a:hover{
+text-decoration:underline;
+}
+
+
+/* ===============================
 HEADER
 =============================== */
 
@@ -89,17 +103,7 @@ opacity:0.75;
 }
 
 .identity a{
-
 color:#d4af37;
-
-text-decoration:none;
-
-}
-
-.identity a:hover{
-
-text-decoration:underline;
-
 }
 
 
@@ -255,7 +259,9 @@ border-left:4px solid #d4af37;
 }
 
 
-/* section titles */
+/* ===============================
+SECTION TITLES (FIXED GOLD LINE)
+=============================== */
 
 section h2{
 
@@ -265,14 +271,34 @@ font-size:24px;
 
 color:#ffffff;
 
-border-bottom:1px solid rgba(255,255,255,0.08);
-
 padding-bottom:10px;
+
+position:relative;
+
+}
+
+/* arany csík a cím alatt */
+
+section h2::after{
+
+content:"";
+
+display:block;
+
+width:60px;
+
+height:2px;
+
+background:#d4af37;
+
+margin-top:10px;
 
 }
 
 
-/* paragraph spacing */
+/* ===============================
+TEXT
+=============================== */
 
 section p{
 
@@ -283,7 +309,9 @@ color:#d0d0d0;
 }
 
 
-/* list spacing */
+/* ===============================
+LISTS
+=============================== */
 
 section ul{
 
@@ -291,7 +319,7 @@ list-style:none;
 
 margin-top:18px;
 
-padding-left:10px; /* kis beljebb húzás */
+padding-left:10px;
 
 }
 
@@ -307,8 +335,6 @@ padding-left:14px;
 
 }
 
-/* >>> EZ AZ ÚJ RÉSZ <<< */
-
 section ul li::before{
 
 content:"•";
@@ -321,20 +347,17 @@ left:0;
 
 }
 
-/* <<< */
 
-section ul li a{
+/* ===============================
+SECTION LINKS (FIX)
+=============================== */
 
+section a{
 color:#d4af37;
-
-text-decoration:none;
-
 }
 
-section ul li a:hover{
-
+section a:hover{
 text-decoration:underline;
-
 }
 
 
@@ -346,69 +369,4 @@ footer{
 
 text-align:center;
 
-padding:40px 20px;
-
-background:#0b0f14;
-
-border-top:1px solid rgba(255,255,255,0.08);
-
-font-size:14px;
-
-opacity:0.8;
-
-}
-
-footer a{
-
-color:#d4af37;
-
-text-decoration:none;
-
-}
-
-footer a:hover{
-
-text-decoration:underline;
-
-}
-
-
-/* ===============================
-RESPONSIVE
-=============================== */
-
-@media (max-width:800px){
-
-header h1{
-
-font-size:34px;
-
-}
-
-nav ul{
-
-flex-direction:row;
-justify-content:center;
-flex-wrap:wrap;
-
-}
-
-nav ul li ul{
-
-position:absolute;
-
-}
-
-main{
-
-padding:40px 15px;
-
-}
-
-section{
-
-padding:24px;
-
-}
-
-}
+padding:
