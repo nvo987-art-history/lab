@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+
+  <ShortName>NV0987 Lab</ShortName>
+  <Description>Search NV0987 Lab – Experimental Research Node</Description>
+
+  <Url type="text/html"
+       method="get"
+       template="https://lab.nvo987.us/?q={searchTerms}"/>
+
+  <Url type="application/atom+xml"
+       rel="suggestions"
+       template="https://lab.nvo987.us/atom.xml"/>
+
+  <Image height="16" width="16" type="image/x-icon">
+    https://lab.nvo987.us/favicon.ico
+  </Image>
+
+  <Developer>Nicholas Van-Orton</Developer>
+  <Contact>nvo@nvo987.us</Contact>
+
+  <Attribution>NV0987 Lab</Attribution>
+
+  <InputEncoding>UTF-8</InputEncoding>
+  <OutputEncoding>UTF-8</OutputEncoding>
+
+</OpenSearchDescription>
