@@ -1,22 +1,31 @@
 {
-  "subject": "https://lab.nvo987.us",
+  "subject": "did:web:identity.nvo987.us",
+
   "links": [
     {
       "rel": "self",
-      "type": "application/activity+json",
-      "href": "https://lab.nvo987.us"
+      "type": "application/did+json",
+      "href": "https://identity.nvo987.us/.well-known/did.json"
     },
     {
-      "rel": "canonical",
-      "href": "https://lab.nvo987.us"
+      "rel": "self",
+      "type": "application/json",
+      "href": "https://lab.nvo987.us/.well-known/identity.json"
     },
     {
-      "rel": "identity",
-      "href": "did:web:identity.nvo987.us"
+      "rel": "alternate",
+      "type": "application/ld+json",
+      "href": "https://lab.nvo987.us/schema.jsonld"
     },
     {
-      "rel": "profile",
-      "href": "https://identity.nvo987.us/profile"
+      "rel": "alternate",
+      "type": "application/json",
+      "href": "https://lab.nvo987.us/agent.json"
+    },
+    {
+      "rel": "alternate",
+      "type": "application/json",
+      "href": "https://lab.nvo987.us/datasets.json"
     }
   ]
 }
