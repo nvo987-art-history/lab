@@ -1,0 +1,36 @@
+{
+  "issuer": "https://identity.nvo987.us",
+
+  "authorization_endpoint": "https://identity.nvo987.us/auth",
+  "token_endpoint": "https://identity.nvo987.us/token",
+  "userinfo_endpoint": "https://identity.nvo987.us/userinfo",
+
+  "jwks_uri": "https://identity.nvo987.us/.well-known/jwks.json",
+
+  "response_types_supported": [
+    "code",
+    "id_token",
+    "token"
+  ],
+
+  "subject_types_supported": [
+    "public"
+  ],
+
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+
+  "scopes_supported": [
+    "openid",
+    "profile",
+    "email"
+  ],
+
+  "claims_supported": [
+    "sub",
+    "iss",
+    "name",
+    "email"
+  ]
+}
