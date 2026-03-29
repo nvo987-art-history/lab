@@ -1,0 +1,35 @@
+{
+  "version": "2.0",
+
+  "software": {
+    "name": "nv0987-lab",
+    "version": "1.0.0"
+  },
+
+  "protocols": [
+    "web",
+    "did",
+    "semantic-web"
+  ],
+
+  "services": {
+    "inbound": [],
+    "outbound": []
+  },
+
+  "usage": {
+    "users": {
+      "total": 1,
+      "activeMonth": 1,
+      "activeHalfyear": 1
+    }
+  },
+
+  "openRegistrations": false,
+
+  "metadata": {
+    "nodeType": "research-node",
+    "identity": "did:web:identity.nvo987.us",
+    "description": "Experimental semantic research node exploring AI, perception, and decentralized identity."
+  }
+}
