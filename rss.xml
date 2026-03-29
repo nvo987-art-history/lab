@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+  <channel>
+    <title>NV0987 Lab</title>
+    <link>https://lab.nvo987.us/</link>
+    <description>
+      Experimental research node exploring relational color systems,
+      AI image generation, decentralized identity, and semantic web infrastructure.
+    </description>
+
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Mar 2026 00:00:00 GMT</lastBuildDate>
+
+    <managingEditor>nvo@nvo987.us (Nicholas Van-Orton)</managingEditor>
+    <webMaster>nvo@nvo987.us (Nicholas Van-Orton)</webMaster>
+
+    <!-- ======================= -->
+    <!-- ITEM: Homepage -->
+    <!-- ======================= -->
+    <item>
+      <title>NV0987 Lab – Research Node</title>
+      <link>https://lab.nvo987.us/</link>
+      <guid>https://lab.nvo987.us/</guid>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+
+      <description>
+        Experimental research node exploring relational color systems,
+        AI image generation, decentralized identity, and semantic web infrastructure.
+      </description>
+    </item>
+
+    <!-- ======================= -->
+    <!-- ITEM: Foundation Document -->
+    <!-- ======================= -->
+    <item>
+      <title>Foundation Document – Version 9.1</title>
+      <link>https://lab.nvo987.us/documents/foundation-v9.1.pdf</link>
+      <guid>https://lab.nvo987.us/documents/foundation-v9.1.pdf</guid>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+
+      <description>
+        Theoretical foundation exploring color as a generative principle
+        in perception and AI-based image systems.
+      </description>
+    </item>
+
+    <!-- ======================= -->
+    <!-- ITEM: Research Notes -->
+    <!-- ======================= -->
+    <item>
+      <title>Research Notes</title>
+      <link>https://lab.nvo987.us/research-notes.html</link>
+      <guid>https://lab.nvo987.us/research-notes.html</guid>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+
+      <description>
+        Ongoing documentation of experimental observations,
+        analysis, and theoretical development.
+      </description>
+    </item>
+
+  </channel>
+</rss>
