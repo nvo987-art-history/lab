@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+
+  "name": "NV0987 Lab Datasets",
+  "description": "Structured and experimental datasets related to perceptual color systems, AI-generated imagery, and semantic knowledge structures.",
+
+  "url": "https://lab.nvo987.us/datasets.json",
+
+  "creator": {
+    "@type": "Person",
+    "name": "Nicholas Van-Orton",
+    "identifier": "did:web:identity.nvo987.us"
+  },
+
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "NV0987 Research Infrastructure",
+    "url": "https://nvo987.us"
+  },
+
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "Knowledge Graph",
+      "encodingFormat": "application/ld+json",
+      "contentUrl": "https://identity.nvo987.us/machine/graph.jsonld"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "Agent Registry",
+      "encodingFormat": "application/ld+json",
+      "contentUrl": "https://identity.nvo987.us/machine/agents.jsonld"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "Verifiable Credentials",
+      "encodingFormat": "application/ld+json",
+      "contentUrl": "https://identity.nvo987.us/machine/vc.jsonld"
+    }
+  ],
+
+  "keywords": [
+    "AI",
+    "Semantic Web",
+    "Knowledge Graph",
+    "Decentralized Identity",
+    "Color Perception",
+    "Machine-Readable Research"
+  ]
+}
