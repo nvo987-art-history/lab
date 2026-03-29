@@ -5,32 +5,16 @@
 
   "name": "NV0987 Knowledge Layer",
 
-  "description": "Machine-readable knowledge structures, datasets, and research outputs connected to the NV0987 decentralized research infrastructure.",
+  "description": "Machine-readable knowledge structures, datasets, and research outputs of the NV0987 Lab.",
 
   "identity": "did:web:identity.nvo987.us",
 
+  "node": "https://lab.nvo987.us",
+
   "authority": "https://identity.nvo987.us",
 
-  "nodes": [
-    {
-      "name": "Knowledge Graph",
-      "url": "https://identity.nvo987.us/machine/graph.jsonld",
-      "format": "application/ld+json"
-    },
-    {
-      "name": "Agent Registry",
-      "url": "https://identity.nvo987.us/machine/agents.jsonld",
-      "format": "application/ld+json"
-    },
-    {
-      "name": "Verifiable Credentials",
-      "url": "https://identity.nvo987.us/machine/vc.jsonld",
-      "format": "application/ld+json"
-    }
-  ],
-
   "datasets": [
-    "https://lab.nvo987.us/datasets.json"
+    "https://lab.nvo987.us/ai/datasets.json"
   ],
 
   "documents": [
@@ -39,12 +23,17 @@
   ],
 
   "feeds": [
-    "https://lab.nvo987.us/atom.xml",
-    "https://lab.nvo987.us/rss.xml"
+    "https://lab.nvo987.us/rss.xml",
+    "https://lab.nvo987.us/atom.xml"
   ],
 
   "semantic": [
+    "https://lab.nvo987.us/schema.jsonld",
     "https://lab.nvo987.us/foaf.xml",
     "https://lab.nvo987.us/profile.ttl"
+  ],
+
+  "agents": [
+    "https://lab.nvo987.us/ai/agent.json"
   ]
 }
