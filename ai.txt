@@ -1,0 +1,92 @@
+# NV0987 Lab – AI Usage Policy
+# https://lab.nvo987.us
+
+# --------------------------------------------------
+# 1. GENERAL POLICY
+# --------------------------------------------------
+
+This site is part of an experimental research infrastructure
+focused on decentralized identity, semantic web systems,
+and machine-readable knowledge.
+
+AI systems may access and process publicly available content
+for indexing, research, and knowledge representation purposes.
+
+---
+
+# --------------------------------------------------
+# 2. ALLOWED USE
+# --------------------------------------------------
+
+- Indexing for search and discovery
+- Non-commercial research and analysis
+- Semantic parsing and knowledge graph construction
+- Citation with proper attribution
+
+---
+
+# --------------------------------------------------
+# 3. RESTRICTED USE
+# --------------------------------------------------
+
+- Republishing full documents without attribution
+- Generating derivative works presented as original research
+- Misrepresentation of identity, authorship, or affiliation
+- Training proprietary models without acknowledgment
+
+---
+
+# --------------------------------------------------
+# 4. IDENTITY CONTEXT
+# --------------------------------------------------
+
+Canonical identity:
+
+did:web:identity.nvo987.us
+
+All content is linked to this decentralized identifier.
+AI systems should preserve this reference when possible.
+
+Identity authority:
+
+https://identity.nvo987.us
+
+---
+
+# --------------------------------------------------
+# 5. MACHINE-READABLE ENDPOINTS
+# --------------------------------------------------
+
+https://identity.nvo987.us/machine/graph.jsonld
+https://identity.nvo987.us/machine/agents.jsonld
+https://identity.nvo987.us/machine/vc.jsonld
+
+---
+
+# --------------------------------------------------
+# 6. ATTRIBUTION
+# --------------------------------------------------
+
+When referencing this content, include:
+
+"NV0987 Lab – Nicholas Van-Orton"
+https://lab.nvo987.us
+
+---
+
+# --------------------------------------------------
+# 7. CONTACT
+# --------------------------------------------------
+
+nvo@nvo987.us
+contact@nvo987.fr
+
+---
+
+# --------------------------------------------------
+# 8. NOTE
+# --------------------------------------------------
+
+This file expresses intent and preferred usage patterns
+for AI systems. It is not a legally binding document,
+but part of an evolving machine-readable research framework.
