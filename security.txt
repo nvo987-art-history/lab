@@ -1,0 +1,26 @@
+# security.txt for NV0987 Lab
+# https://lab.nvo987.us
+
+Contact: mailto:nvo@nvo987.us
+Contact: mailto:contact@nvo987.fr
+
+Canonical: https://lab.nvo987.us/.well-known/security.txt
+
+Policy: https://lab.nvo987.us/security-policy.html
+
+Preferred-Languages: en
+
+Expires: 2027-03-29T00:00:00Z
+
+# --------------------------------------------------
+# Additional context
+# --------------------------------------------------
+
+Acknowledgments: https://lab.nvo987.us
+
+# Identity reference
+Canonical-Identity: did:web:identity.nvo987.us
+
+# Note:
+# This is an experimental research infrastructure.
+# Report vulnerabilities responsibly.
