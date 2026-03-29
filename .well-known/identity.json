@@ -1,7 +1,31 @@
 {
-  "did": "did:web:identity.nvo987.us",
-  "domain": "lab.nvo987.us",
-  "role": "research-laboratory",
-  "controller": "https://identity.nvo987.us",
-  "description": "Experimental research laboratory environment of the NVO987 infrastructure."
+  "id": "did:web:identity.nvo987.us",
+
+  "name": "Nicholas Van-Orton",
+
+  "project": "NV0987 Lab",
+
+  "type": "research-node",
+
+  "domains": [
+    "https://lab.nvo987.us",
+    "https://identity.nvo987.us",
+    "https://nvo987.us",
+    "https://knowledge.nvo987.us",
+    "https://art.nvo987.us",
+    "https://social.nvo987.us",
+    "https://nvo987.fr"
+  ],
+
+  "identityAuthority": "https://identity.nvo987.us",
+
+  "machineEndpoints": [
+    "https://identity.nvo987.us/machine/graph.jsonld",
+    "https://identity.nvo987.us/machine/agents.jsonld",
+    "https://identity.nvo987.us/machine/vc.jsonld"
+  ],
+
+  "agent": "https://lab.nvo987.us/agent.json",
+
+  "datasets": "https://lab.nvo987.us/datasets.json"
 }
