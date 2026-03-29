@@ -1,19 +1,50 @@
 {
-  "context": "https://schema.org",
-  "type": "ResearchProject",
-  "name": "NVO987 Lab",
-  "url": "https://lab.nvo987.us",
-  "creator": {
-    "type": "Person",
-    "name": "Nicholas Van-Orton",
-    "email": "nvo@nvo987.us"
-  },
-  "identifier": "did:web:identity.nvo987.us",
-  "sameAs": [
-    "https://nvo987.fr",
-    "https://nvo987.us",
-    "https://knowledge.nvo987.us",
-    "https://identity.nvo987.us"
+  "@context": "https://schema.org",
+
+  "type": "KnowledgeGraph",
+
+  "name": "NV0987 Knowledge Layer",
+
+  "description": "Machine-readable knowledge structures, datasets, and research outputs connected to the NV0987 decentralized research infrastructure.",
+
+  "identity": "did:web:identity.nvo987.us",
+
+  "authority": "https://identity.nvo987.us",
+
+  "nodes": [
+    {
+      "name": "Knowledge Graph",
+      "url": "https://identity.nvo987.us/machine/graph.jsonld",
+      "format": "application/ld+json"
+    },
+    {
+      "name": "Agent Registry",
+      "url": "https://identity.nvo987.us/machine/agents.jsonld",
+      "format": "application/ld+json"
+    },
+    {
+      "name": "Verifiable Credentials",
+      "url": "https://identity.nvo987.us/machine/vc.jsonld",
+      "format": "application/ld+json"
+    }
   ],
-  "description": "Experimental infrastructure and research environment for the NVO987 project focusing on visual culture and digital humanities."
+
+  "datasets": [
+    "https://lab.nvo987.us/datasets.json"
+  ],
+
+  "documents": [
+    "https://lab.nvo987.us/documents/foundation-v9.1.pdf",
+    "https://lab.nvo987.us/documents/foundation-v2.pdf"
+  ],
+
+  "feeds": [
+    "https://lab.nvo987.us/atom.xml",
+    "https://lab.nvo987.us/rss.xml"
+  ],
+
+  "semantic": [
+    "https://lab.nvo987.us/foaf.xml",
+    "https://lab.nvo987.us/profile.ttl"
+  ]
 }
