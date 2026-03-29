@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>NV0987 Lab</title>
+  <subtitle>Experimental Research Node – NV0987 Decentralized Knowledge Infrastructure</subtitle>
+
+  <link href="https://lab.nvo987.us/atom.xml" rel="self"/>
+  <link href="https://lab.nvo987.us/"/>
+
+  <updated>2026-03-29T00:00:00Z</updated>
+
+  <id>https://lab.nvo987.us/</id>
+
+  <author>
+    <name>Nicholas Van-Orton</name>
+    <uri>https://identity.nvo987.us</uri>
+  </author>
+
+  <generator>NV0987 Research Infrastructure</generator>
+
+  <!-- ======================= -->
+  <!-- ENTRY: Homepage -->
+  <!-- ======================= -->
+  <entry>
+    <title>NV0987 Lab – Research Node</title>
+    <link href="https://lab.nvo987.us/"/>
+    <id>https://lab.nvo987.us/</id>
+    <updated>2026-03-29T00:00:00Z</updated>
+
+    <summary>
+      Experimental research node exploring relational color systems,
+      AI image generation, decentralized identity, and semantic web infrastructure.
+    </summary>
+  </entry>
+
+  <!-- ======================= -->
+  <!-- ENTRY: Foundation Document -->
+  <!-- ======================= -->
+  <entry>
+    <title>Foundation Document – Version 9.1</title>
+    <link href="https://lab.nvo987.us/documents/foundation-v9.1.pdf"/>
+    <id>https://lab.nvo987.us/documents/foundation-v9.1.pdf</id>
+    <updated>2026-03-29T00:00:00Z</updated>
+
+    <summary>
+      Theoretical foundation exploring color as a generative principle
+      in perception and AI-based image systems.
+    </summary>
+  </entry>
+
+  <!-- ======================= -->
+  <!-- ENTRY: Research Notes -->
+  <!-- ======================= -->
+  <entry>
+    <title>Research Notes</title>
+    <link href="https://lab.nvo987.us/research-notes.html"/>
+    <id>https://lab.nvo987.us/research-notes.html</id>
+    <updated>2026-03-29T00:00:00Z</updated>
+
+    <summary>
+      Ongoing documentation of experimental observations,
+      analysis, and theoretical development.
+    </summary>
+  </entry>
+
+</feed>
