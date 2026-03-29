@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <XRD xmlns="http://docs.oasis-open.org/ns/xri/xrd-1.0">
-  <Link
-    rel="lrdd"
-    type="application/xrd+xml"
-    template="https://lab.nvo987.us/.well-known/webfinger?resource={uri}" />
+
+  <!-- WebFinger endpoint -->
+  <Link rel="lrdd"
+        type="application/xrd+xml"
+        template="https://lab.nvo987.us/.well-known/webfinger?resource={uri}" />
+
+  <!-- Alternate JSON WebFinger -->
+  <Link rel="lrdd"
+        type="application/jrd+json"
+        template="https://lab.nvo987.us/.well-known/webfinger?resource={uri}" />
+
+  <!-- Identity reference -->
+  <Link rel="self"
+        href="https://identity.nvo987.us" />
+
 </XRD>
