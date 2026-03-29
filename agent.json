@@ -1,0 +1,59 @@
+{
+  "@context": [
+    "https://schema.org",
+    "https://www.w3.org/ns/did/v1"
+  ],
+
+  "@type": "ResearchProject",
+
+  "name": "NV0987 Lab",
+  "url": "https://lab.nvo987.us",
+
+  "description": "Experimental research node exploring relational color systems, AI image generation, semantic web infrastructure, and decentralized identity.",
+
+  "identifier": "did:web:identity.nvo987.us",
+
+  "creator": {
+    "@type": "Person",
+    "name": "Nicholas Van-Orton",
+    "identifier": "https://orcid.org/0009-0007-4628-1871",
+    "sameAs": [
+      "https://identity.nvo987.us",
+      "https://nvo987.us"
+    ]
+  },
+
+  "agentType": "research-node",
+
+  "capabilities": [
+    "semantic-representation",
+    "knowledge-graph",
+    "ai-research",
+    "machine-readable-publication"
+  ],
+
+  "domains": [
+    "AI Agents",
+    "Knowledge Graph",
+    "Semantic Web",
+    "Decentralized Identity",
+    "Perception Research"
+  ],
+
+  "endpoints": {
+    "home": "https://lab.nvo987.us",
+    "identity": "https://identity.nvo987.us",
+    "knowledge": "https://knowledge.nvo987.us"
+  },
+
+  "machineEndpoints": [
+    "https://identity.nvo987.us/machine/graph.jsonld",
+    "https://identity.nvo987.us/machine/agents.jsonld",
+    "https://identity.nvo987.us/machine/vc.jsonld"
+  ],
+
+  "policies": {
+    "ai": "https://lab.nvo987.us/ai.txt",
+    "llm": "https://lab.nvo987.us/llms.txt"
+  }
+}
