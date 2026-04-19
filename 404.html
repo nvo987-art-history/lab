@@ -1,92 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+  <meta charset="UTF-8">
+  <title>404 - Page Not Found</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>404 | NV0987 Lab</title>
-
-<link rel="stylesheet" href="style.css">
-
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    .box {
+      max-width: 500px;
+    }
+    h1 {
+      font-size: 72px;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #38bdf8;
+      color: #0f172a;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    a:hover {
+      background: #0ea5e9;
+    }
+  </style>
 </head>
-
 <body>
+  <div class="box">
+    <h1>404</h1>
+    <p>Page not found.</p>
+    <p id="subdomain"></p>
+    <a href="https://www.nvo987.us">Go to homepage</a>
+  </div>
 
-<header>
+  <script>
+    const host = window.location.hostname;
+    const parts = host.split('.');
+    const domain = "nvo987.us";
 
-<h1>NV0987 Lab</h1>
+    let sub = "";
 
-<p class="subtitle">
-Experimental Research Node
-</p>
+    if (host.endsWith(domain) && parts.length > 2) {
+      sub = parts[0];
+    }
 
-<p class="tagline">
-AI · Color Theory · Perception · Machine Systems
-</p>
+    const el = document.getElementById("subdomain");
 
-<p class="identity">
-<a href="https://identity.nvo987.us">
-did:web:identity.nvo987.us
-</a>
-</p>
+    if (sub) {
+      el.innerText = "Subdomain: " + sub;
+    } else {
+      el.style.display = "none";
+    }
 
-</header>
-
-<main>
-
-<section>
-
-<h2>Page Not Found</h2>
-
-<p>
-This section of the research environment is not yet available.
-</p>
-
-<p>
-The NV0987 Lab is under continuous development, and certain documents, notes, and experimental modules are being structured and published progressively.
-</p>
-
-<p>
-Please return to the main interface or continue exploring the available sections of the lab.
-</p>
-
-<ul>
-<li><a href="/index.html">Return to Home</a></li>
-<li><a href="/documents/foundation-v2.pdf">Open Foundation Document</a></li>
-</ul>
-
-</section>
-
-</main>
-
-<footer>
-
-<p>
-NV0987 Lab
-</p>
-
-<p>
-Experimental node of the NVO987 decentralized research infrastructure.
-</p>
-
-<p>
-Identity Authority
-<a href="https://identity.nvo987.us">
-did:web:identity.nvo987.us
-</a>
-</p>
-
-<p>
-Nodes
-<a href="https://identity.nvo987.us">identity.nvo987.us</a> |
-<a href="https://knowledge.nvo987.us">knowledge.nvo987.us</a> |
-<a href="https://nvo987.us">nvo987.us</a>
-</p>
-
-</footer>
-
+    // optional auto redirect after 5 seconds
+    setTimeout(() => {
+      window.location.href = "https://www.nvo987.us";
+    }, 5000);
+  </script>
 </body>
-
 </html>
