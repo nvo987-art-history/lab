@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
-  <title>404 – Page Not Found</title>
+  <title>500 – Internal Server Error</title>
   <meta name="robots" content="noindex,follow">
   <meta name="theme-color" content="#05050a">
 
@@ -54,7 +54,6 @@
         linear-gradient(180deg, var(--bg0), var(--bg1), #030308);
     }
 
-    /* animated neon grid */
     .grid-bg{
       position:fixed;
       inset:0;
@@ -75,7 +74,6 @@
       to   { background-position: 0 160px, 160px 0; }
     }
 
-    /* film grain */
     body::before{
       content:"";
       position:fixed;
@@ -127,8 +125,8 @@
       letter-spacing:.3px;
       padding:10px 14px;
       border-radius:999px;
-      border:1px solid rgba(0,245,255,.30);
-      background:rgba(0,245,255,.08);
+      border:1px solid rgba(255,43,214,.35);
+      background:rgba(255,43,214,.10);
       color:rgba(245,245,247,.92);
       text-transform:uppercase;
     }
@@ -147,7 +145,7 @@
 
     h1{
       margin:0;
-      font-size:92px;
+      font-size:82px;
       font-weight:1000;
       letter-spacing:-2px;
       line-height:1;
@@ -155,7 +153,6 @@
       text-transform:uppercase;
     }
 
-    /* glitch effect */
     h1::before,
     h1::after{
       content:attr(data-text);
@@ -260,13 +257,13 @@
     }
 
     .btn-primary{
-      border:1px solid rgba(255,43,214,.35);
-      background:linear-gradient(180deg, rgba(255,43,214,.18), rgba(0,0,0,.10));
+      border:1px solid rgba(0,245,255,.35);
+      background:linear-gradient(180deg, rgba(0,245,255,.18), rgba(0,0,0,.10));
     }
 
     .btn-primary:hover{
-      border:1px solid rgba(255,43,214,.55);
-      background:linear-gradient(180deg, rgba(255,43,214,.26), rgba(0,0,0,.14));
+      border:1px solid rgba(0,245,255,.55);
+      background:linear-gradient(180deg, rgba(0,245,255,.26), rgba(0,0,0,.14));
     }
 
     .small{
@@ -280,14 +277,13 @@
       color:white;
     }
 
-    /* mobile tuning */
     @media(max-width:560px){
       .wrap{
         padding:26px 20px;
       }
 
       h1{
-        font-size:72px;
+        font-size:64px;
       }
 
       .subtitle{
@@ -310,35 +306,33 @@
 
   <main class="wrap" role="main">
     <div class="topline">
-      <div class="badge">SYSTEM ERROR</div>
+      <div class="badge">SERVER FAILURE</div>
       <div class="host" id="host">Host: –</div>
     </div>
 
-    <h1 data-text="404">404</h1>
-    <div class="subtitle">Page Not Found</div>
+    <h1 data-text="500">500</h1>
+    <div class="subtitle">Internal Server Error</div>
 
     <p class="desc">
-      The page you are looking for does not exist or has been moved.
-      Please check the URL or return to the homepage.
+      Something went wrong on the server side.
+      This is usually temporary. Please try again later.
     </p>
 
     <div class="line"></div>
 
     <div class="actions">
       <a class="btn btn-primary" id="homeLink" href="/">Return to homepage</a>
-      <a class="btn" href="javascript:history.back()">Go back</a>
+      <a class="btn" href="javascript:location.reload()">Reload</a>
     </div>
 
     <div class="small">
-      <strong>Tip:</strong> If you manage multiple domains, this page adapts automatically to the current host.
+      <strong>Status:</strong> internal error detected.
     </div>
   </main>
 
   <script>
     const host = window.location.hostname || "unknown";
     document.getElementById("host").textContent = "Host: " + host;
-
-    // Optional: automatically set homepage link to current domain root
     document.getElementById("homeLink").href = window.location.origin + "/";
   </script>
 </body>
